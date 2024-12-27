@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_bios",
+  "info": {
+    "displayName": "Bio"
+  },
+  "options": {},
+  "attributes": {
+    "bio": {
+      "type": "blocks"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.social-link"
+    },
+    "publishedItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.published-item"
+    }
+  }
+}

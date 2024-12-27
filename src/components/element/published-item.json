@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_element_published_items",
+  "info": {
+    "displayName": "PublishedItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
