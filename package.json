@@ -2,7 +2,7 @@
   "name": "photo-site-cms",
   "version": "0.1.0",
   "private": true,
-  "description": "A Strapi application",
+  "description": "CMS for justynhunter.com",
   "scripts": {
     "build": "strapi build",
     "deploy": "strapi deploy",
