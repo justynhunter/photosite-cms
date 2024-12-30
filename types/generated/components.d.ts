@@ -23,24 +23,11 @@ export interface ElementSocialLink extends Struct.ComponentSchema {
   };
 }
 
-export interface SectionBio extends Struct.ComponentSchema {
-  collectionName: 'components_section_bios';
-  info: {
-    displayName: 'Bio';
-  };
-  attributes: {
-    bio: Schema.Attribute.Blocks;
-    publishedItems: Schema.Attribute.Component<'element.published-item', true>;
-    socials: Schema.Attribute.Component<'element.social-link', true>;
-  };
-}
-
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
       'element.published-item': ElementPublishedItem;
       'element.social-link': ElementSocialLink;
-      'section.bio': SectionBio;
     }
   }
 }
