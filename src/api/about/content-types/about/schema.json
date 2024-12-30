@@ -12,10 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "bioComponent": {
+    "bio": {
+      "type": "blocks",
+      "required": true
+    },
+    "socials": {
       "type": "component",
-      "repeatable": false,
-      "component": "section.bio"
+      "repeatable": true,
+      "component": "element.social-link"
+    },
+    "publishedItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.published-item"
     }
   }
 }
